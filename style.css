@@ -6,21 +6,24 @@ body {
     background-color: #F1F1F1;
     font-family: 'Raleway', sans-serif;
 }
+
 header {
     padding: 60px 0;
     height: 100px;
     text-align: center;
     vertical-align: middle;
 }
+
 h1 {
     font-size:  50px;
     margin: 0;
 }
+
 h2 {
-    
     font-size: 18px;
     font-weight: 100;
 }
+
 h2 span, p span, #travel {
     background-color: #000;
     color: #fff;
@@ -59,6 +62,7 @@ aside {
     padding: 16px;
     background-color: #fff;
 }
+
 .more-actions button {
     padding: 15px;
     border: 1px solid #E2E2E2;
@@ -66,6 +70,7 @@ aside {
     font-weight: bold;
     font-size: 15px;
 }
+
 .more-actions button:hover {
     background-color: #E2E2E2;
 }
@@ -77,6 +82,7 @@ aside {
     padding-left: 16px;
     font-weight: 100;
 }
+
 .fotos, .tags {
     background-color: #fff;
     padding: 15px 5px;
@@ -94,14 +100,14 @@ aside {
 }
 
 .fotos img {
-    width: 70px;
-    height: auto;
+    width: 60px;
+    height: 60px;
     margin-right: 16px;
 }
 
 .tags {
-    height: 150px;
     line-height: 40px;
+    padding: 16px;
 }
 
 .tags span {
@@ -109,17 +115,14 @@ aside {
     padding: 4px;
 }
 
-
-
-
 footer {
     background-color: #616161;
     color: #fff;
     height: 130px;
     padding: 20px 16px;
-    font-size: 18px;
-    
+    font-size: 18px;   
 }
+
 footer button {
     background-color: #000;
     color: #fff;
@@ -128,4 +131,13 @@ footer button {
     margin: 20px 10px 8px 0;
     font-size: 18px;
     font-weight: 100;
+}
+
+@media (max-width:600px) {
+    main {
+        flex-direction: column;
+    }
+    section, aside {
+        width: 100%;
+    }
 }
