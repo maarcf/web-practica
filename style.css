@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    padding: 60px 0;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+h1 {
+    font-size:  50px;
+    margin: 0;
+}
+h2 {
+    
+    font-size: 18px;
+    font-weight: 100;
+}
+h2 span, p span, #travel {
+    background-color: #000;
+    color: #fff;
+    padding: 2px 8px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    width: 70%;
+}
+aside {
+    width: 30%
+}
+
+.card {
+    margin: 32px 16px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.7)
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.more-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #fff;
+}
+.more-actions button {
+    padding: 15px;
+    border: 1px solid #E2E2E2;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+.more-actions button:hover {
+    background-color: #E2E2E2;
+}
+
+.h5 {
+    font-size: 20px;
+    margin: 20px 0;
+    padding-top: 20px;
+    padding-left: 16px;
+    font-weight: 100;
+}
+.fotos, .tags {
+    background-color: #fff;
+    padding: 15px 5px;
+
+}
+
+.fotos {
+    padding: 16px;
+    display: flex;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.fotos:hover {
+    background-color: #E2E2E2;
+}
+
+.fotos img {
+    width: 70px;
+    height: auto;
+    margin-right: 16px;
+}
+
+.tags {
+    height: 150px;
+    line-height: 40px;
+}
+
+.tags span {
+    background-color: #F1F1F1;
+    padding: 4px;
+}
+
+
+
+
+footer {
+    background-color: #616161;
+    color: #fff;
+    height: 130px;
+    padding: 20px 16px;
+    font-size: 18px;
+    
+}
+footer button {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border: 1px solid #000;
+    margin: 20px 10px 8px 0;
+    font-size: 18px;
+    font-weight: 100;
+}
